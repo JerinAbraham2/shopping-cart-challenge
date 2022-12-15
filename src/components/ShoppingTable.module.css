@@ -1,0 +1,66 @@
+
+table button {
+  padding: 10px;
+  font-weight:bold;
+  font-size: 1rem;
+}
+
+.qty__button {
+  background-color: rgba(121, 121, 121, 0);
+  color: white;
+  border: 0px;
+  font-size: 1.5rem;
+}
+
+.qty__button:hover {
+  cursor: pointer;
+  background-color: rgba(121, 121, 121, 0.5);
+}
+
+.removeBtn {
+  margin: auto;
+  display:block; /* you need to display block if you want to align it center */
+  background-color: rgb(221, 54, 54);
+  cursor: pointer;
+  color: white;
+}
+.removeBtn:hover {
+  background-color: rgb(243, 16, 16);
+}
+
+.chkOutBtn {
+  cursor: pointer;
+  background-color: rgb(33, 155, 29);
+  color: white;
+}
+
+.chkOutBtn:hover {
+  background-color: rgb(28, 189, 23);
+}
+/* imported from w3schools table style, also being modified right now */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse; /*this is what allows it not to have the square shapes*/
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size:1.5rem
+}
+
+td, th {
+  border: 2px solid #a8a8a8;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: rgb(11, 94, 11);
+}
+
+tr:nth-child(even) {
+  background-color: #424242;
+}
+
+tr:last-child {
+  background-color: rgb(4, 4, 179);
+}
