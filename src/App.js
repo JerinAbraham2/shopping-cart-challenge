@@ -97,14 +97,12 @@ function App() {
     <div className="App">
       <header data-testid="app-div" className="App-header">
         <h1>Our products</h1>
-
         {/* products */}
         <div id="products__container">
           {products.map((product) => (
-            <Product name={product.name} price={product.price} img={product.img} id={product.id} onClick={handleAddToCart} />
+            <Product name={product.name} price={product.price} img={product.img} id={product.id} handleAddToCart={handleAddToCart} />
           ))}
         </div>
-
         {/* shopping cart */}
         <div>
           <h1>Cart</h1>
