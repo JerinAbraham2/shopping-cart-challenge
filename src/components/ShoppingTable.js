@@ -5,7 +5,6 @@ const ShoppingTable = ({ cart, updateCartQty, removeItem }) => {
   const [total, setTotal] = useState(0);
   const [totalQuantity, setTotalQuantity] = useState(0);
 
-  // this effect executes every time a the cart changes
   useEffect(() => {
     let totalPrice = 0;
     let totalQty = 0;
@@ -14,7 +13,6 @@ const ShoppingTable = ({ cart, updateCartQty, removeItem }) => {
       totalPrice += item.price * item.quantity;
       totalQty += item.quantity;
     }
-    // set the total price
     setTotal(totalPrice);
     setTotalQuantity(totalQty);
   }, [cart]);
@@ -28,7 +26,7 @@ const ShoppingTable = ({ cart, updateCartQty, removeItem }) => {
         <th>Price</th>
         <th>Qty</th>
         <th>Total</th>
-        <th> {/* I think leave blank for the button */} </th>
+        <th></th>
       </tr>
 
       {cart.map((item) => {
@@ -52,7 +50,6 @@ const ShoppingTable = ({ cart, updateCartQty, removeItem }) => {
           </tr>
         );
       })}
-
       <tr>
         <td colSpan={2}> Total</td>
         <td>{totalQuantity}</td>

@@ -50,31 +50,42 @@ function App() {
       });
       setCart(newCart);
     } else {
-      // if it doesn't add it to the cart
+      // if it isn't added to the cart add it to the cart
       setCart((cart) => [...cart, product]);
     }
   };
 
   const removeItem = (id) => {
-    const newCart = cart.filter(item => item.id !== id);
-    setCart(newCart)
-  }
+    // first reset quantity back to 1; (for some reason it saves the quantity value, even though its being removed)
+    let newCart = cart.map((item) => {
+      if (item.id === id) {
+        item.quantity = 1;
+        return item;
+      } else {
+        return item;
+      }
+    });
+    // then remove item from the cart
+    newCart = newCart.filter((item) => item.id !== id);
+    setCart(newCart);
+  };
 
   const updateCartQty = (product, add) => {
-    // if the quantity is less than one, and they want to subtract more
+    // if the quantity is less than one, and they want to subtract more, alert them
     if (product.quantity < 1 && !add) {
       alert("you cannot go into negative numbers, unless you want me to pay you");
     } else {
       // make the new cart with the updated quantity
       const newCart = cart.map((item) => {
-        if (product.id == item.id && add) {
+        if (product.id === item.id && add) {
+          // if add, add to quantity
           item.quantity += 1;
           return item;
-        } else if (product.id == item.id && !add) {
+        } else if (product.id === item.id && !add) {
+          // if not add, minus from quantity
           item.quantity -= 1;
           return item;
-        }
-        {
+        } else {
           return item;
         }
       });
@@ -85,7 +96,6 @@ function App() {
   return (
     <div className="App">
       <header data-testid="app-div" className="App-header">
-        {/* react logo */}
         <h1>Our products</h1>
 
         {/* products */}
@@ -95,10 +105,10 @@ function App() {
           ))}
         </div>
 
-        {/* shopping cart */ }
+        {/* shopping cart */}
         <div>
           <h1>Cart</h1>
-          <ShoppingTable cart={cart} updateCartQty={updateCartQty} removeItem={removeItem}/>
+          <ShoppingTable cart={cart} updateCartQty={updateCartQty} removeItem={removeItem} />
         </div>
       </header>
     </div>
