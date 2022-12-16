@@ -70,4 +70,4 @@ I decided to use react for this project, because since it is a user interface, I
 
 ### enter quantitity
 
-> Incrementing the quantity is available inside the inside the shopping cart table in the ShoppingTable component, each button "+" and "-" calls a function called updateCartQty inside the parent component App, it passes two arguments, the product to update the quantity on, and a true or false value, if its incrementing or decrementing the quantity
+> This is a variation on the requirement, instead incrementing the quantity is available inside the shopping cart table in the ShoppingTable component, each button "+" and "-" calls a function called updateCartQty inside the parent component App, it passes two arguments, the product to update the quantity on, and a true or false value, if its incrementing or decrementing the quantity
