@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/shopping-cart-challenge/static/css/main.38d2ceba.css",
+    "main.js": "/shopping-cart-challenge/static/js/main.4b4c9c9c.js",
+    "static/js/787.4b0a6dd6.chunk.js": "/shopping-cart-challenge/static/js/787.4b0a6dd6.chunk.js",
+    "static/media/imac.jpg": "/shopping-cart-challenge/static/media/imac.e3f8fbf4ab5301eceb6d.jpg",
+    "static/media/earbuds.jpg": "/shopping-cart-challenge/static/media/earbuds.fe4ae248d76456e3c456.jpg",
+    "static/media/laptop.jpg": "/shopping-cart-challenge/static/media/laptop.6019c70bd87c5055d20a.jpg",
+    "index.html": "/shopping-cart-challenge/index.html",
+    "main.38d2ceba.css.map": "/shopping-cart-challenge/static/css/main.38d2ceba.css.map",
+    "main.4b4c9c9c.js.map": "/shopping-cart-challenge/static/js/main.4b4c9c9c.js.map",
+    "787.4b0a6dd6.chunk.js.map": "/shopping-cart-challenge/static/js/787.4b0a6dd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38d2ceba.css",
+    "static/js/main.4b4c9c9c.js"
+  ]
+}
