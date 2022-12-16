@@ -3,26 +3,34 @@
 ## Setup instructions
 
 > To run the Development server
+
 1. Open the commandline in your local machine
 2. Clone repo to local machine
+
 ```
 git clone https://github.com/JerinAbraham2/shopping-cart-challenge.git
 ```
+
 2. Change directory to cloned folder
+
 ```
 cd shopping-cart-challenge
 ```
+
 3. Type in the commandLine the command "npm start"
+
 ```
 npm start
 ```
 
 > To run hosted version
 
-- to be added
+1. use this [link](https://jerinabraham2.github.io/shopping-cart-challenge/) to view the hosted version on github pages
 
 ## Technologies
-I decided to use react for this project, because since it is a user interface, I felt the framework would work well with a single page ui, I also used useId (I believe is a built-in react library) for making the unique id for the products. I also used CSS modules, because I read they were efficient (not sure). 
+
+I decided to use react for this project, because since it is a user interface, I felt the framework would work well with a single page ui, I also used useId (I believe is a built-in react library) for making the unique id for the products. I also used CSS modules, because I read they were efficient (not sure).
+
 - React
 - JavaScript
 - CSS
