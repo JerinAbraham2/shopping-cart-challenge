@@ -3,12 +3,21 @@
 ## Setup instructions
 
 > To run the Development server
+1. Open the commandline in your local machine
+2. Clone repo to local machine
+```
+git clone https://github.com/JerinAbraham2/shopping-cart-challenge.git
+```
+2. Change directory to cloned folder
+```
+cd shopping-cart-challenge
+```
+3. Type in the commandLine the command "npm start"
+```
+npm start
+```
 
-- Clone repo to local machine
-- Cd to root folder
-- Type in the commandLine the command "npm start"
-
-> To run locally
+> To run hosted version
 
 - to be added
 
