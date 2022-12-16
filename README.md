@@ -2,7 +2,7 @@
 
 ## Setup instructions
 
-> **To run the Development server**
+### **To run the Development server**
 
 1. Open the commandline in your local machine
 2. Clone repo to local machine
@@ -23,9 +23,9 @@ cd shopping-cart-challenge
 npm start
 ```
 
-> **To run hosted version**
+### **To run hosted version**
 
-1. use this [link](https://jerinabraham2.github.io/shopping-cart-challenge/) to view the hosted version on github pages
+Use this [link](https://jerinabraham2.github.io/shopping-cart-challenge/) to view the hosted version on github pages
 
 ## Technologies
 
