@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shopping-cart-challenge/static/css/main.f0a0aaff.css",
+    "main.css": "/shopping-cart-challenge/static/css/main.cbd3af37.css",
     "main.js": "/shopping-cart-challenge/static/js/main.72868b7d.js",
     "static/js/787.4b0a6dd6.chunk.js": "/shopping-cart-challenge/static/js/787.4b0a6dd6.chunk.js",
     "static/media/imac.jpg": "/shopping-cart-challenge/static/media/imac.e3f8fbf4ab5301eceb6d.jpg",
     "static/media/earbuds.jpg": "/shopping-cart-challenge/static/media/earbuds.fe4ae248d76456e3c456.jpg",
     "static/media/laptop.jpg": "/shopping-cart-challenge/static/media/laptop.6019c70bd87c5055d20a.jpg",
     "index.html": "/shopping-cart-challenge/index.html",
-    "main.f0a0aaff.css.map": "/shopping-cart-challenge/static/css/main.f0a0aaff.css.map",
+    "main.cbd3af37.css.map": "/shopping-cart-challenge/static/css/main.cbd3af37.css.map",
     "main.72868b7d.js.map": "/shopping-cart-challenge/static/js/main.72868b7d.js.map",
     "787.4b0a6dd6.chunk.js.map": "/shopping-cart-challenge/static/js/787.4b0a6dd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a0aaff.css",
+    "static/css/main.cbd3af37.css",
     "static/js/main.72868b7d.js"
   ]
 }
