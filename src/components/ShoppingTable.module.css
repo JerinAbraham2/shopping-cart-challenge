@@ -64,3 +64,21 @@ tr:nth-child(even) {
 tr:last-child {
   background-color: rgb(4, 4, 179);
 }
+
+@media only screen and (max-width: 915px) {
+  table {
+    font-size: 1rem;
+    width: 50% !important;
+  }
+  table button {
+
+    font-size: 0.8rem;
+  }
+  
+  .qty__button {
+    font-size: 0.8rem;
+  }
+  table td{
+    padding: 5px;
+  }
+}

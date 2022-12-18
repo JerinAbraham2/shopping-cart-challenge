@@ -104,7 +104,7 @@ function App() {
           ))}
         </div>
         {/* shopping cart */}
-        <div>
+        <div id="checkout">
           <h1>Cart</h1>
           <ShoppingTable cart={cart} updateCartQty={updateCartQty} removeItem={removeItem} />
         </div>
